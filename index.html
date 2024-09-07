@@ -9,15 +9,18 @@
 <body>
     <header>
         <img src="image/icon.png" alt="logo" width="50px">
-        <p><a href="#why">why pizzorino</a></p>
-        <p><a href="#our">our restaurant</a></p>
-        <p><a href="#menu">menu </a></p>
-        <p><a href="#contect">contect</a></p>
+        
+        <ul type="none">
+            <li><a href="#why">why pizzorino</a></li>
+            <li><a href="#our">our restaurant</a></li>
+            <li><a href="#menu">menu </a></li>
+            <li><a href="#contect">contect</a></li>
+        </ul>           
 
-        <button><a href="#get">get started</a></button>
+        <button><a href="#get">contect us</a></button>
     </header>
       <hr>  
-    <section>
+    <section id="why">
        <h1>why pizzorino</h1>
       <img src="image/first_image.jpg" alt="" width="500px">
          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, illum.
@@ -88,14 +91,18 @@
     <hr><hr> <br><hr>
 
     <section id="get">
-         <h1>start with us</h1>
+         <h3>start with us</h3>
           <form >
            <label for="fname">your name</label>
            <input id="fname" type="text" >
            <label for="Iname">your last name</label>
            <input id="Iname" type="text" >
            <label for="number">your number</label>
-           <input id="number" type="text" >
+           <input id="number" type="number" >
+           <label for="message">message</label>
+           <input id="message" type="message" >
+           
+           <button>send</button>
 
           </form>
         </section>
@@ -104,8 +111,7 @@
         
         <footer id="contect">
             
-            <h1>&copy; pizzorino</h1>
-            <p><b> our contect</b></p>
+            <p> &copy; pizzorino <br> <b> our contect</b></p>
            <img src="image/icone3.png" alt="" width="50px" id="img">
             <label for="img">pizzorino_pizza</label>
             <br>
@@ -115,12 +121,13 @@
             <img src="image/icone5.png" alt="" width="50px" id="img3">
             <label for="img3">05415742741</label>
 
+            
+            <div align="right">
+                <a href="#"><img src="image/icone2.png" alt="up" width="50px"></a>
+            </div>
         </footer>
-        <hr>
-
-        <div align="right">
-            <a href="#"2><img src="image/icone2.png" alt="up" width="50px"></a>
-        </div>
+       
+        
     
 
 </body>
